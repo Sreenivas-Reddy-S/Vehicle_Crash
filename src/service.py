@@ -3,17 +3,8 @@ import json
 import uvicorn
 from bson import ObjectId
 from fastapi import FastAPI
-from folium.plugins import MarkerCluster
-from flask import Flask, jsonify, request, redirect, url_for
 from pymongo import MongoClient
-from flask_cors import CORS
-from math import cos, sin, asin, sqrt
-from math import radians
 import re
-import folium
-import pandas as pd
-import numpy as np
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 # app = Flask(__name__)
