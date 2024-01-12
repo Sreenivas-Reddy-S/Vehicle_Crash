@@ -23,14 +23,6 @@ db = client['Car_Crash']
 car_crash_collection = db['car_crash_collection']
 
 
-# Create a custom JSON encoder that handles ObjectId
-class CustomJSONEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, ObjectId):
-            return str(obj)
-        return super().default(obj)
-
-
 def convert_data_to_string(data):
     for key, value in data.items():
         data[key] = str(value)
@@ -248,4 +240,3 @@ def read_root():
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8005)
-
