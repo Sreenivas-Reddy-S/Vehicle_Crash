@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vehicle_crash_container:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-volume:/data/db
