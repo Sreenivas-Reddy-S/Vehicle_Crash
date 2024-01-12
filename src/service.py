@@ -1,7 +1,4 @@
-import json
-
 import uvicorn
-from bson import ObjectId
 from fastapi import FastAPI
 from pymongo import MongoClient
 import re
