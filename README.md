@@ -17,7 +17,7 @@ A devastating tanker fire on I-95 turned the highway into chaos, collapsing lane
 🔗 Live Demo: Check it out here
 
 ⚡ Getting Started?
-- 1️⃣ Clone the repo: git clone https://github.com/Sreenivas-Reddy-S/Vehicle_Crash
+- 1️⃣ Clone the repo: git clone https://github.com/Sreenivas-Reddy-S/Vehicle_Crash.git
 - 2️⃣ Follow the steps in the README.md to set up locally or deploy to production.
 
 🚀 Quick Start (With Docker)
